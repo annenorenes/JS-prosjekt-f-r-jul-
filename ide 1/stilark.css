@@ -1,0 +1,56 @@
+html, body{
+    background-color: #f64b4b;
+}
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: 0; 
+    /* Hvorfor skriver jeg det slik? Hvorfor starter jeg på denne måten? */
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    /* Hvorfor denne høyden? Hvorfor gir vi bodyen flex? */
+
+}
+
+.container{
+    position: relative;
+    top: 50px;
+    /* hvorfor disse instillingene? */
+}
+
+.cup {
+    position: relative;
+    width: 280px;
+    height: 300px;
+    background-color: pink;
+    background:linear-gradient(to right,#8a7b7b,#6e3939)
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+
+.topp {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background:linear-gradient(to right, #7c1111, #c80b0b);
+    border-radius: 50%;
+}
+
+.teFarge{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color:navajowhite;
+    border-radius: 50%;
+
+}

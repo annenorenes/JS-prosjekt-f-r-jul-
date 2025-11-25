@@ -34,3 +34,17 @@ Kanskje det er mulig å gjøre det fylle glasset opp, men slik som kake spille, 
 Jeg tenker på utvidelse mer seinere. Nå tenker jeg å se ut i fra det vann glass koden. Jeg ønske endre den
 1. Forstå koden med fyll opp vann glass
 2. Endre det slik at det er en te kopp som fyller opp 
+
+
+
+Notater under "the making" av koden 
+
+Så langt har jeg greid å gjøre slik at parene er tilfeldig plassert. Det vil si at en runde så kan knapp 1, også kallt, forside1, være den del av par A. Det kan og fremside2 være. En annen runde vil par A hver tilfeldig endret på nytt 
+Jeg har laget slik at du for en alert når du ønsker å starte spillet på nytt 
+Jeg har også gjort det slik at når du klikker på en bok kommer det til å bli skrevet ut i konsollen hva du trykket på
+
+Målet nå er å lagre hav som blir trykket, før vi så for vite om det er en match eller ikke 
+
+Det førtse jeg mp gjøre er å lage en variabel for første gang vi klikker og andre gang vi klikker.
+
+jeg ser nå, før vi begynner med variabler og kondisjoner, at jeg kan gjøre det enklere for meg selv. Jeg kan fjerne de fire repetisjons funksjonene, og lage en samlet funksjon
